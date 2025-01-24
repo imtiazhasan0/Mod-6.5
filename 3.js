@@ -1,3 +1,7 @@
-const fruits = [10, 2, 5 ,19, 6, 3];
-fruits.sort();
-console.log(fruits);
+function sortarray(array) 
+{
+    return array.sort((a, b) => a - b);
+}
+  const numbers = [15, 3, 10, 2, 18, 7];
+  const sortedNumbers = sortarray(numbers);
+  console.log(sortedNumbers);
